@@ -3,8 +3,8 @@
   align-items: center;
   flex-direction: column;
   background-color: chocolate;
-  width: 200px;
-  height: 310px;
+  width: var(--area-door-width);
+  height: var(--area-door-height);
   padding: 15px;
 }
 
