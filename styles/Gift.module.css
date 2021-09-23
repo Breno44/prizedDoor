@@ -1,0 +1,32 @@
+.gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.giftHeader {
+  width: 100px;
+  height: 25px;
+  background-color: #7aa944;
+}
+
+.giftBody {
+  width: 90px;
+  height: 60px;
+  background-color: #5c7e32;
+}
+
+.giftRibbon1 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+
+.giftRibbon2 {
+  position: absolute;
+  width: 90px;
+  height: 15px;
+  top: 40px;
+  background-color: red;
+}
