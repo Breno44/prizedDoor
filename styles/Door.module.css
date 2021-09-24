@@ -1,7 +1,16 @@
 .area {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: var(--area-door-width);
   height: var(--area-door-height);
+  margin: 5px;
+}
+
+.floor {
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
 }
 
 .structure {
@@ -10,6 +19,7 @@
   border-left: 5px solid brown;
   border-top: 5px solid brown;
   border-right: 5px solid brown;
+  width: 90%;
 }
 
 .door {
