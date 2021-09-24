@@ -1,10 +1,23 @@
+.area {
+  display: flex;
+  width: var(--area-door-width);
+  height: var(--area-door-height);
+}
+
+.structure {
+  display: flex;
+  flex-grow: 1;
+  border-left: 5px solid brown;
+  border-top: 5px solid brown;
+  border-right: 5px solid brown;
+}
+
 .door {
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex-grow: 1;
   background-color: chocolate;
-  width: var(--area-door-width);
-  height: var(--area-door-height);
   padding: 15px;
 }
 
