@@ -2,9 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   width: var(--area-door-width);
   height: var(--area-door-height);
   margin: 5px;
+}
+
+.doorHandle {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: brown;
+  position: absolute;
+  top: 140px;
+  align-self: flex-start;
 }
 
 .floor {
