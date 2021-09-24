@@ -1,10 +1,10 @@
 import Door from "../components/Door";
 
-export default class Porta {
-  #number;
-  #haveGift;
-  #selected;
-  #open;
+export default class DoorModel {
+  #number: number;
+  #haveGift: boolean;
+  #selected: boolean;
+  #open: boolean;
 
   constructor(number, haveGift = false, selected = false, open = false) {
     this.#number = number;
@@ -31,16 +31,16 @@ export default class Porta {
 
   deselect() {
     const selected = false;
-    return new Door(this.numero, this.haveGift, selected, this.open);
+    return new DoorModel(this.number, this.haveGift, selected, this.open);
   }
 
   toggleSelection() {
     const selected = !this.selected;
-    return new Door(this.numero, this.haveGift, selected, this.open);
+    return new DoorModel(this.number, this.haveGift, selected, this.open);
   }
 
   openDoor() {
     const open = true;
-    return new Door(this.numero, this.haveGift, this.selected, open);
+    return new DoorModel(this.number, this.haveGift, this.selected, open);
   }
 }
