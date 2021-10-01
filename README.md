@@ -9,7 +9,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [next](https://nextjs.org/)
-- [Javascript](https://www.javascript.com/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Tailwind](https://tailwindcss.com/)
 
 ## 🚀 Como executar
